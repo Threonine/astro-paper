@@ -6,6 +6,10 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 
+// 数学公式支持
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
@@ -18,6 +22,7 @@ export default defineConfig({
   ],
   markdown: {
     remarkPlugins: [
+      remarkMath, // 数学公式支持
       remarkToc,
       [
         remarkCollapse,
@@ -26,6 +31,7 @@ export default defineConfig({
         },
       ],
     ],
+    rehypePlugins: [rehypeKatex], // 数学公式支持
     shikiConfig: {
       // For more themes, visit https://shiki.style/themes
       themes: { light: "min-light", dark: "night-owl" },
