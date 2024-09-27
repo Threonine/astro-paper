@@ -3,9 +3,9 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-**Education:** 
+**Education:**
 
-- **Master’s Student:** University  of Chinese Academy of Sciences (UCAS) (2024 - Present)
+- **Master’s Student:** [UCAS](https://english.ucas.ac.cn/) (2024 - Present)
 
 - **Bachelor’s Degree:** Fuzhou University (2020 - 2024)
 
@@ -17,8 +17,7 @@ title: "About"
 
   - [ROIS Team](https://rois.io/)
 
-  - [1997 Team](https://yijiujiuqinianwoxuehuilekaiqiche.github.io/) (Focus on crypto)
-
+  - [1997 Team](https://yijiujiuqinianwoxuehuilekaiqiche.github.io/)
 
 ## Friends
 
