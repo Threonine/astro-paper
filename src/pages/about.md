@@ -5,9 +5,9 @@ title: "About"
 
 **Education:**
 
-- **Master’s Student:** [UCAS](https://english.ucas.ac.cn/) (2024 - Present)
+- **Master’s Student:** [UCAS](https://ucas.ac.cn/) (2024 - Present)
 
-- **Bachelor’s Degree:** Fuzhou University (2020 - 2024)
+- **Bachelor’s Degree:** [Fuzhou University](https://www.fzu.edu.cn/) (2020 - 2024)
 
 **CTF:**
 
@@ -15,9 +15,9 @@ title: "About"
 
 - Play CTF with
 
-  - [ROIS Team](https://rois.io/)
+  - [ROIS](https://rois.io/)
 
-  - [1997 Team](https://yijiujiuqinianwoxuehuilekaiqiche.github.io/)
+  - [「一九九七年我学会了开汽车」](https://yijiujiuqinianwoxuehuilekaiqiche.github.io/)
 
 ## Friends
 
