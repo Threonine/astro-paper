@@ -11,12 +11,11 @@ title: "About"
 
 **CTF:**
 
-- Focus on Web Security & Cryptography
+- **Focus Areas:** Web Security & Cryptography
 
-- Play CTF with
+- **Teams:**
 
   - [ROIS](https://rois.io/)
-
   - [「一九九七年我学会了开汽车」](https://yijiujiuqinianwoxuehuilekaiqiche.github.io/)
 
 ## Friends
