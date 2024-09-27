@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Threonine",
   profile: "https://thr-sec.com/",
   desc: "CTFer | Cryptography amateur | Security enthusiast",
-  title: "Threonine's Blog",
+  title: "Threonine",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
