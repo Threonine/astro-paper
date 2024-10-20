@@ -1,13 +1,17 @@
 ---
 title: GeekGame 2024 - 不经意的逆转
-description: 
+description: 第一次做到以不经意传输为背景的题目，记录一下
 pubDatetime: 2024-10-17T13:41:55+08:00
 featured: false
-draft: true
+draft: false
 tags:
   - Crypto
   - CTF
 ---
+第一次做到以不经意传输（Oblivious transfer）为背景的题目，记录一下。本题基于 RSA，类似的题目还有
+
+- [zer0ptsCTF 2022 - OK](https://hackmd.io/@theoldmoon0602/SJrf0HPMq)
+- [idekCTF 2022 - Decidophobia](https://github.com/EggRoll-Taiyaki/My-CTF-Challenges/tree/main/idekCTF/2022/Decidophobia)
 
 ## Flag 1
 
@@ -92,3 +96,5 @@ $$
 f^2-g\cdot f+1\equiv 0\pmod{n_0n_1\cdots n_5}\tag 2
 $$
 能够求出 $(1)$ 式的小根，注意这里令 $\beta=\frac{1}{6}$.
+
+这种解「模单变量多项式方程组」的问题被称为 [SMUPE-problem](https://www.cits.ruhr-uni-bochum.de/imperia/md/content/may/paper/pkc2008.pdf)，[N1CTF 2022-babyecc](https://tanglee.top/2022/11/08/N1CTF-2022-Crypto-Writeups-By-tl2cents/)也是类似的姿势～
