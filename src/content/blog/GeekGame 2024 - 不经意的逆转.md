@@ -8,7 +8,7 @@ tags:
   - Crypto
   - CTF
 ---
-第一次做到以不经意传输（Oblivious transfer）为背景的题目，记录一下。本题基于 RSA，类似的题目还有
+第一次做到以不经意传输（Oblivious transfer）为背景的题目，记录一下.本题基于 RSA，类似的题目还有
 
 - [zer0ptsCTF 2022 - OK](https://hackmd.io/@theoldmoon0602/SJrf0HPMq)
 - [idekCTF 2022 - Decidophobia](https://github.com/EggRoll-Taiyaki/My-CTF-Challenges/tree/main/idekCTF/2022/Decidophobia)
@@ -77,7 +77,7 @@ v_0+v_1&\equiv f+f^{-1}&\pmod{p}\\
 f^2-(v_0+v_1)f+1&\equiv 0&\pmod{p}\\
 \end{align}
 $$
-这里 $f$ 是 1024-bit 的，相对于 $p$ 不够小。可以多取几组数据构成方程组
+这里 $f$ 是 1024-bit 的，相对于 $p$ 不够小. 可以多取几组数据构成方程组
 $$
 \begin{cases}
 f^2-g_0\cdot f+1&\equiv 0&\pmod{p_0}\\
