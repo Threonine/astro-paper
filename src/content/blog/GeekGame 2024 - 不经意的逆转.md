@@ -23,28 +23,28 @@ v_1&\equiv{(v-x_1)}^d + {(p-q)}^d+f&\pmod{n}
 $$
 两式都有 $f$，考虑作差
 $$
-v_0-v_1={(v-x_0)}^d-{(v-x_1)}^d+{(p+q)}^d-{(p-q)}^d\pmod{n}
+v_0-v_1 ={(v-x_0)}^d-{(v-x_1)}^d+{(p+q)}^d-{(p-q)}^d\pmod{n}
 $$
 由二项式定理
 $$
-{(p+q)}^d-{(p-q)}^d=2 \sum_{k \text{ odd}} \binom{d}{k} p^{d-k} q^k=K\cdot q
+{(p+q)}^d-{(p-q)}^d = 2 \sum_{k \text{ odd}} \binom{d}{k} p^{d-k} q^k = K\cdot q
 $$
 把模数换到 $q$ 下有
 $$
-v_0-v_1={(v-x_0)}^d-{(v-x_1)}^d\pmod{q}
+v_0-v_1 ={(v-x_0)}^d-{(v-x_1)}^d\pmod{q}
 $$
 此时考虑 $v$ 的取值，让右侧尽量简单，尝试
 $$
-{(v-x_0)}^d=-{(v-x_1)}^d
+{(v-x_0)}^d =-{(v-x_1)}^d
 $$
 由于 $d$ 为奇数，那么 $v-x_0=-(v-x_1)$，即 $v=\frac{x_0+x_1}{2}$.
 
 此时有
 $$
 \begin{align}
-v_0-v_1&=2{(v-x_0)}^d\pmod{q}\\
-{(v_0-v_1)}^e&=2^e(v-x_0)\pmod{q}\\
-{(v_0-v_1)}^e&=2^e(v-x_0)+K'\cdot q\\
+v_0-v_1&= 2{(v-x_0)}^d\pmod{q}\\
+{(v_0-v_1)}^e&= 2^e(v-x_0)\pmod{q}\\
+{(v_0-v_1)}^e&= 2^e(v-x_0)+K'\cdot q\\
 K'\cdot q&={(v_0-v_1)}^e-2^e(v-x_0)
 \end{align}
 $$
@@ -68,7 +68,7 @@ v_0+v_1&\equiv {(p+q)}^d+{(p-q)}^d+f+f^{-1}&\pmod{n}\\
 $$
 由二项式定理
 $$
-{(p+q)}^d+{(p-q)}^d=K\cdot p
+{(p+q)}^d+{(p-q)}^d = K\cdot p
 $$
 把模数换到 $p$ 下有
 $$
@@ -97,4 +97,4 @@ f^2-g\cdot f+1\equiv 0\pmod{n_0n_1\cdots n_5}\tag 2
 $$
 能够求出 $(1)$ 式的小根，注意这里令 $\beta=\frac{1}{6}$.
 
-这种解「模单变量多项式方程组」的问题被称为 [SMUPE-problem](https://www.cits.ruhr-uni-bochum.de/imperia/md/content/may/paper/pkc2008.pdf)，[N1CTF 2022-babyecc](https://tanglee.top/2022/11/08/N1CTF-2022-Crypto-Writeups-By-tl2cents/)也是类似的姿势～
+这种解「模单变量多项式方程组」的问题被称为 [SMUPE-problem](https://www.cits.ruhr-uni-bochum.de/imperia/md/content/may/paper/pkc2008.pdf)，[N1CTF 2022-babyecc](https://tanglee.top/2022/11/08/N1CTF-2022-Crypto-Writeups-By-tl2cents/) 也是类似的姿势～
