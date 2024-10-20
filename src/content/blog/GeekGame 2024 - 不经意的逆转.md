@@ -8,7 +8,7 @@ tags:
   - Crypto
   - CTF
 ---
-第一次做到以不经意传输（Oblivious transfer）为背景的题目，记录一下.本题基于 RSA，类似的题目还有
+第一次做到以不经意传输（Oblivious transfer）为背景的题目，记录一下. 本题基于 RSA，类似的题目还有
 
 - [zer0ptsCTF 2022 - OK](https://hackmd.io/@theoldmoon0602/SJrf0HPMq)
 - [idekCTF 2022 - Decidophobia](https://github.com/EggRoll-Taiyaki/My-CTF-Challenges/tree/main/idekCTF/2022/Decidophobia)
