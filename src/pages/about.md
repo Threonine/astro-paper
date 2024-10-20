@@ -6,8 +6,8 @@ title: "About"
 ```json
 {
   "education": {
-    "masters": {
-      "institution": "UCAS",
+    "master": {
+      "institution": "University of Chinese Academy of Sciences",
       "duration": "2024 - Present"
     },
     "bachelor": {
@@ -31,6 +31,12 @@ title: "About"
       }
     ]
   },
-  "friends": null
+  "friends": {
+    "春哥": "https://zm-j.github.io/",
+    "Xenny": "https://xenny.wiki/",
+    "sh1kaku": "https://sh1k4ku.github.io/",
+    "diffany": "https://gudiffany.github.io/",
+    "To be done": "Let me know if you want to be listed :)"
+  }
 }
 ```
