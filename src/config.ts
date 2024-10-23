@@ -2,9 +2,9 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://thr-sec.com/", // replace this with your deployed domain
-  author: "Threonine",
+  author: "苏氨酸的博客: CTF | Cryptography | Web Security",
   profile: "https://thr-sec.com/",
-  desc: "CTFer | Cryptography amateur | Security enthusiast",
+  desc: "Blog of Threonine",
   title: "Threonine",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: false,
