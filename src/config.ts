@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://thr-sec.com/", // replace this with your deployed domain
   author: "苏氨酸的博客: CTF | Cryptography | Web Security",
   profile: "https://thr-sec.com/",
-  desc: "Blog of Threonine",
+  desc: "苏氨酸's blog: CTF | Cryptography | Cybersecurity",
   title: "Threonine",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: false,
