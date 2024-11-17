@@ -1,6 +1,6 @@
 ---
 title: Gröbner 基学习
-description: 虽然一直在用 `Ideal.groebner_basis()` 来解方程组，但其实一直都不太清楚什么是理想、什么是 Gröbner 基.今天稍微学习一下.
+description: 理想和 Gröbner 基的学习
 pubDatetime: 2024-11-15T17:56:30+08:00
 featured: false
 draft: false
