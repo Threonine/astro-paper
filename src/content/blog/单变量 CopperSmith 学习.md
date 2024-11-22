@@ -1,6 +1,6 @@
 ---
-title: 准备补补多变量 CopperSmith，先复习一下单变量
-description: 
+title: 单变量 CopperSmith 学习
+description: 准备补补多变量 CopperSmith，先复习一下单变量
 pubDatetime: 2024-11-22T23:43:39+08:00
 featured: false
 draft: false
